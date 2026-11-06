@@ -1,5 +1,4 @@
 {
-  "$schema": "https://raw.githubusercontent.com/nicoverbruggen/tauri-v2-schema/refs/heads/main/src/schema.json",
   "productName": "Linux Cleaner",
   "version": "0.1.0",
   "identifier": "com.linuxcleaner.app",
@@ -10,7 +9,6 @@
     "beforeBuildCommand": "npm run build"
   },
   "app": {
-    "title": "Linux Cleaner",
     "windows": [
       {
         "title": "Linux Cleaner",
