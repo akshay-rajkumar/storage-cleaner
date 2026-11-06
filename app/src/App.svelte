@@ -5,3 +5,4 @@
 <main class="min-h-screen p-6">
   <Dashboard />
 </main>
+

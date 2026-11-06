@@ -27,3 +27,18 @@ export interface FullScanResult {
   disk_usage: DiskUsageInfo;
   categories: ScanResult[];
 }
+
+export interface CleanOutcome {
+  path: string;
+  success: boolean;
+  freed_bytes: number;
+  error: string | null;
+}
+
+export interface CleanReport {
+  freed_bytes: number;
+  deleted: number;
+  failed: number;
+  outcomes: CleanOutcome[];
+}
+
