@@ -1,0 +1,25 @@
+# Rust
+/target/
+**/target/
+Cargo.lock
+
+# Node / Tauri frontend
+app/node_modules/
+app/dist/
+app/build/
+app/.svelte-kit/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*
